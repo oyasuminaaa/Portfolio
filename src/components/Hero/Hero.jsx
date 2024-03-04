@@ -1,33 +1,46 @@
-import React from 'react'
-import styles from './Hero.module.css'
-import { FaFacebook,FaGithub,FaLinkedin } from "react-icons/fa";
+import React from "react";
+import styles from "./Hero.module.css";
+import { FaGithub, FaLinkedinIn, FaFacebookF } from "react-icons/fa6";
 
+function Hero() {
+  return (
+    <div className={styles.hero_wrapper}>
+      <div className={styles.container}>
+        <div className={styles.hero_content}>
+          <div className={styles.hero_info}>
+            <p className={styles.text_1}>Greetings, tech enthusiast!</p>
+            <h3 className={styles.text_2}>Byte Slinger Dhamma</h3>
+            <p className={styles.text_3}>I'm a full-stack developer</p>
+            <p className={styles.text_4}>
+              who crafted this online experience. Take a peek under the hood and
+              see what makes it tick.
+            </p>
+            <ul className={styles.hero_social}>
+              <li>
+                <a href="">
+                  <FaGithub />
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <FaLinkedinIn />
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <FaFacebookF />
+                </a>
+              </li>
+            </ul>
+          </div>
 
-function Hero(){
-    return(
-        <div className={styles.hero_wrapper}>
-            <div className={styles.contianer}>
-                <div className={styles.hero_con}>
-                    <div className={styles.hero_ifo}>
-                        <p className={styles.text1}>Hello ,There</p>
-                        <h3 className={styles.text2}>Phakorn Fongthiwong</h3>
-                        <p className={styles.text3}>I'm a front end dev</p>
-                        <p className={styles.text4}>Lorem ipsum dolor,
-                         sit amet consectetur adipisicing elit. Laborum quasi dolorum ex vero sint atque dolorem velit 
-                         consequuntur perferendis! Nesciunt velit animi 
-                         doloribus excepturi labore incidunt alias ab 
-                         similique beatae!
-                        </p>
-                        <ul className={styles.hero_social}>
-                            <li><a href="#"><FaLinkedin /></a></li>
-                            <li><a href="#"><FaGithub /></a></li>
-                            <li><a href="#"><FaFacebook /></a></li>
-                        </ul>
-                    </div>
-                    <div className={styles.hero_image}></div>
-                </div>
-            </div>
+          <div>
+            <div className={styles.hero_image}></div>
+          </div>
         </div>
-    )
+      </div>
+    </div>
+  );
 }
-export default Hero
+
+export default Hero;
