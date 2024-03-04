@@ -5,6 +5,7 @@ import './App.css'
 
 import Navbar from './components/navbar/Navbar'
 import Hero from './components/Hero/Hero'
+import Skills from './components/Skills/Skills'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +14,7 @@ function App() {
     <>
       <Navbar />
       <Hero />
+      <Skills/>
     </>
   )
 }
