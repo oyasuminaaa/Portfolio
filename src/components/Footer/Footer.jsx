@@ -3,9 +3,9 @@ import styles from "./Footer.module.css";
 
 function Footer() {
   return (
-    <Footer>
+    <footer>
       <p>Copyleft @ 2567. All right mate.</p>
-    </Footer>
+    </footer>
   );
 }
 
