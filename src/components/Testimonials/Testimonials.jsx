@@ -8,10 +8,9 @@ function Testimonials() {
       <div className={styles.testi_list}>
         <div className={styles.testi_items}>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure animi
-            commodi fugit eveniet quasi earum ab vitae officia. Quae earum
-            exercitationem nulla eius esse cumque dignissimos rem quia, in
-            nesciunt!
+            Front End Development
+            Back End Development
+            Full Stack Development
           </p>
           <img
             src="https://images.unsplash.com/photo-1552053831-71594a27632d?q=80&w=1262&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
