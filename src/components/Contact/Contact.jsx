@@ -20,8 +20,8 @@ function Contact() {
                     Little Whinging, Surrey
                     </address>
                 </p>
-                <p><MdAlternateEmail/>Byte-Slinger-Dhamma@btc.info</p>
-                <p><SiWhatsapp/>Byte-Slinger-Dhamma</p>
+                <p><MdAlternateEmail/>sbpakonsb@gmail.com</p>
+                <p><SiWhatsapp/>Phakorn-Fongthiwong</p>
             </div>
             <div className={styles.contact_form}>
                 <form action="">

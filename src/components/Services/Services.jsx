@@ -11,17 +11,26 @@ function Services() {
         <div className={styles.services_items}>
             <FaCode/>
             <h4>Web Devlopment</h4>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet aspernatur voluptate distinctio debitis architecto delectus ipsam illo veniam! Nam laudantium reiciendis quasi voluptate ab et voluptates alias aut aliquam maiores?</p>
+            <p> Front End Development
+            Back End Development
+            Full Stack Development
+            </p>
         </div>
         <div className={styles.services_items}>
             <FaPaintbrush/>
             <h4>Web Design</h4>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet aspernatur voluptate distinctio debitis architecto delectus ipsam illo veniam! Nam laudantium reiciendis quasi voluptate ab et voluptates alias aut aliquam maiores?</p>
+            <p>
+              Web & Graphic Designer
+              Website Designer UX UI - Figma
+            </p>
         </div>
         <div className={styles.services_items}>
             <FaDesktop/>
             <h4>Web Mobile</h4>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet aspernatur voluptate distinctio debitis architecto delectus ipsam illo veniam! Nam laudantium reiciendis quasi voluptate ab et voluptates alias aut aliquam maiores?</p>
+            <p>
+              Flutter Mobile Developer
+              Application Developer
+            </p>
         </div>
       </div>
     </div>
