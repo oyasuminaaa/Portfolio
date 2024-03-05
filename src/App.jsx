@@ -19,7 +19,7 @@ function App() {
   return (
     <>
       <AnimatedCursor
-  color="#fff"
+  color="#blue"
   innerSize={8}
   outerSize={35}
   innerScale={1}
