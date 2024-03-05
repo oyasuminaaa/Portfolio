@@ -18,17 +18,18 @@ function App() {
 
   return (
     <>
-      <AnimatedCursor
+<AnimatedCursor
   innerSize={8}
   outerSize={35}
   innerScale={1}
-  outerScale={1.7}
+  outerScale={2}
   outerAlpha={0}
-  outerStyle={{
-    border: '3px solid var(--cursor-color)'
-  }}
+  hasBlendMode={true}
   innerStyle={{
     backgroundColor: 'var(--cursor-color)'
+  }}
+  outerStyle={{
+    border: '3px solid var(--cursor-color)'
   }}
 />
       <Navbar />
